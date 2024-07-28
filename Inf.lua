@@ -262,7 +262,7 @@ while true do task.wait(3.5)
                 return
             end
             -- print(os.time() - t)
-        until os.time() - t >= 3
+        until os.time() - t >= 10
 
         plr.Character:BreakJoints()
         task.wait(7)
